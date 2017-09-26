@@ -1,19 +1,19 @@
 exports.config =
   modules: ["jshint", "coffeescript@1.1.0", "copy"]
   watch:
-    sourceDir: "src"
-    compiledDir: "lib"
-    javascriptDir: null
+	sourceDir: "src"
+	compiledDir: "lib"
+	javascriptDir: null
   coffeescript:
-    options:
-      bare: true
-      sourceMap: false
+	options:
+	  bare: true
+	  sourceMap: false
   compilers:
-    extensionOverrides:
-      typescript: null
+	extensionOverrides:
+	  typescript: null
   copy:
-    extensions: ["js", "ts", "json"]
+	extensions: ["js", "ts", "json"]
   jshint:
-    rules:
-      node: true
-      laxcomma: true
+	rules:
+	  node: true
+	  laxcomma: true
